@@ -1,0 +1,25 @@
+
+        p{
+            color:blue;
+            text-align: justify;
+            font-family: Arial;
+        }
+        .red-text{
+            color:red;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.5;
+            background-color: black;
+            letter-spacing: 3px;
+            word-spacing: 10px;
+        }
+        .name{
+            text-transform: uppercase;
+            background-color: black;
+            color: gold;
+            letter-spacing: 10px;
+            word-spacing: 10px;
+            text-align: center;
+            font-family: Arial;
+            font-size: 48px;
+        }
