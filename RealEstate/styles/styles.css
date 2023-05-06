@@ -1,0 +1,38 @@
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*utilities*/
+
+/*header*/
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(/RealEstate/images/img/header.jpg);
+    height: 75vh;
+    /*views per height*/
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+.site-header p {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
