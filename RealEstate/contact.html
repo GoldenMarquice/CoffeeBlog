@@ -5,22 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Contact</title>
 </head>
 
 <body>
-    <header class="site-header">
+    <header class="contact-header">
         <div class="site-bar">
-            <a href="/RealEstate/index.html"><img src="/RealEstate/images/img/logo.svg" alt="logo"></a>
+            <img src="/RealEstate/images/img/logo.svg" alt="">
             <nav>
+                <a href="/RealEstate/index.html">Home</a>
                 <a href="/RealEstate/about.html">About Us</a>
                 <a href="/RealEstate/blog.html">Blog</a>
                 <a href="/RealEstate/contact.html">Contact</a>
             </nav>
         </div>
-        <p> We sell luxury houses, condominiums, and penthouses </p>
     </header>
+
+    <main class="container">
+        <h2 class="contact-h2">Contact</h2>
+        <p class="contact-text">Fill the next Information</p>
+
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label for="fname"> NAME: </label>
+            <input class="input-control" type="text" id="fname" placeholder="Type your name">
+            <label for="umail"> EMAIL: </label>
+            <input class="input-control" type="email" id="umail" placeholder="Type your email">
+            <label for="phone"> PHONE NUMBER:</label>
+            <input class="input-control" type="text" placeholder="Type your cellphone">
+            <label for="msg">MESSAGE</label>
+            <textarea class="input-control" name="msg" id="msg" cols="30" rows="10"> </textarea>
+
+        </fieldset>
+
+        <fieldset>
+            <legend> Product Information</legend>
+            <select>
+                <option value="option1"> --- Luxury Homes --- </option>
+                <option value="option2"> --- Penthouses --- </option>
+                <option value="option3"> --- Condiminums --- </option>
+            </select>
+            </form>
+            <br>
+            <label for="msg">MESSAGE</label>
+            <textarea class="input-control" name="msg" id="msg" cols="30" rows="10"> </textarea>
+
+        </fieldset>
+        <!-- add the fieldset for product information -->
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <input type="radio" name="contact"><label for="phone">Phone</label>
+            <input type="radio" name="contact"><label for="phone">Email</label>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date">
+            <label for="hours">Hours:</label>
+            <input type="time">
+        </fieldset>
+
+        <Button class="contact-btn">Send</Button>
+    </main>
+
+
+    <footer>
+
+    </footer>
+
 </body>
 
 </html>
