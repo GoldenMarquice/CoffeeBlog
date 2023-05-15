@@ -42,13 +42,52 @@ body {
 
 }
 
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .site-header{
+        justify-content: center;
+        align-items: center;
+    }
+    .site-bar img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .site-bar{
+        flex-direction: column;
+    }
+
+    nav a{
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
 .icon-us {
     display: flex;
     justify-content: space-around;
 }
 
-.icon {}
+.icon {
+    flex-basis: 33.3%;
+    justify-content: space-around;
+}
 
+@media(max-width:768px){
+    .icon-us{
+
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+    .icon{
+     text-align: center;   
+    }
+}
 .site-header p {
     color: white;
 }
@@ -90,6 +129,14 @@ nav a {
     padding: 20px;
 }
 
+@media(max-width:768px){
+    .product-container{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column ;
+    }
+}
 .product img {
     max-height: 70%;
     max-width: 30%;
@@ -148,4 +195,49 @@ fieldset {
     padding: 3px;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+.blog-img{
+    max-height: 70%;
+    max-width: 60%;
+    margin: 0 auto;
+    transition: transform .3s ease-in-out
+}
+
+.about-mission{
+    text-align: left;
+}
+
+.about-people{
+    text-align: center;
+}
+
+.about-story {
+    text-align: center ;
+}
+
+.about-img {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30pc;
+    border-image: 35px;
+   
+}
+
+.about-img1 {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30pc;
+    border-image: 35px;
+}
+
+.about-img2 {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30pc;
+    border-image: 35px;
+    
 }
